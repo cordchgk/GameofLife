@@ -4,6 +4,7 @@
 
 #ifndef UNTITLED_BOARD_H
 
+#include <malloc.h>
 #include "cells.h"
 
 #define UNTITLED_BOARD_H

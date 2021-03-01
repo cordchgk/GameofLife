@@ -3,4 +3,4 @@ project(untitled C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(untitled main.c board.h cells.h gittesttwo.h newgittest.h)
+add_executable(untitled main.c board.h cells.h)

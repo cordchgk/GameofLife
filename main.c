@@ -9,16 +9,13 @@
 int main() {
 
 
-    struct board board;
-
-    board.playing = 13;
+    struct board board = initBoard(10,10);
 
 
-    display(board);
 
+display(board);
+printf("%i", sizeof(board.cells[0]));
 
-    change(&board);
-    display(board);
 
 
     return 0;

@@ -7,6 +7,8 @@
 #IncludeRegexTransform: 
 
 /home/cordch/CLionProjects/untitled/board.h
+malloc.h
+-
 cells.h
 /home/cordch/CLionProjects/untitled/cells.h
 
