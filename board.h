@@ -20,7 +20,7 @@ struct board {
 
 void display(struct board board) {
 
-printf("%i", board.cells[0][0].active);
+    //  printf("%lu\n", board.cells);
 }
 
 
@@ -28,27 +28,20 @@ void change(struct board *board) {
     board->playing = board->playing * 2;
 }
 
-struct board initBoard(int w, int h) {
-    struct board board;
+struct board initBoard(int dim) {
+    struct board b;
 
-    board.playing = 1;
-
-    struct cell cells[h][w];
-    board.cells = cells;
-
-    for (int i = 0; i < w; ++i) {
-        for (int j = 0; j < h; ++j) {
-            struct cell toAdd;
-            toAdd.active = 1;
-
-            board.cells[i][j] = toAdd;
-        }
+    b.playing = 1;
 
 
-    }
+    struct cell cells[dim][dim];
+
+    b.cells = (struct cell **) cells;
+
+    printf("%i\n", &b.cells[4][4]);
 
 
-    return board;
+    return b;
 
 
 }

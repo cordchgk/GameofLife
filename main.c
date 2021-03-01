@@ -9,7 +9,7 @@
 int main() {
 
 
-    struct board board = initBoard(10,10);
+    struct board board = initBoard(10);
 
 
 

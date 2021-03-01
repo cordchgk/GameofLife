@@ -6,12 +6,12 @@
 #define UNTITLED_CELLS_H
 
 
-struct cell {
+ struct cell {
 
-    int active;
+     int active;
 
-    struct cell *nb[];
-} cell;
+
+ } cell_default = {3};
 
 
 struct cell initCell() {
