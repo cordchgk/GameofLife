@@ -7,11 +7,20 @@
 
 
 struct cell {
-    int id;
+
     int active;
 
     struct cell *nb[];
-};
+} cell;
+
+
+struct cell initCell() {
+    struct cell c;
+    c.active = 0;
+
+    return c;
+
+}
 
 
 void setNB(struct cell *c) {

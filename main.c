@@ -14,8 +14,6 @@ int main() {
 
 
 display(board);
-printf("%i", sizeof(board.cells[0]));
-
 
 
     return 0;

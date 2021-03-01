@@ -19,9 +19,8 @@ struct board {
 
 
 void display(struct board board) {
-    printf("%i\n", board.playing);
 
-
+printf("%i", board.cells[0][0].active);
 }
 
 
@@ -33,10 +32,17 @@ struct board initBoard(int w, int h) {
     struct board board;
 
     board.playing = 1;
-    board.cells = malloc(w * sizeof(struct cell));
 
-    for (int i = 0; i < h;i++) {
-        board.cells[i] = malloc(h * sizeof(struct cell));
+    struct cell cells[h][w];
+    board.cells = cells;
+
+    for (int i = 0; i < w; ++i) {
+        for (int j = 0; j < h; ++j) {
+            struct cell toAdd;
+            toAdd.active = 1;
+
+            board.cells[i][j] = toAdd;
+        }
 
 
     }
