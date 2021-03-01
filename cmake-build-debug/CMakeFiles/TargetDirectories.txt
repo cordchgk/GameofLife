@@ -1,0 +1,3 @@
+/home/cordch/CLionProjects/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/cordch/CLionProjects/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/cordch/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir

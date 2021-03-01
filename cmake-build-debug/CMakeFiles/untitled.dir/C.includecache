@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cordch/CLionProjects/untitled/board.h
+cells.h
+/home/cordch/CLionProjects/untitled/cells.h
+
+/home/cordch/CLionProjects/untitled/cells.h
+
+/home/cordch/CLionProjects/untitled/main.c
+stdio.h
+-
+bits/types/clock_t.h
+-
+time.h
+-
+unistd.h
+-
+string.h
+-
+board.h
+/home/cordch/CLionProjects/untitled/board.h
+
