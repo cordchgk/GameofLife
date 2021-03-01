@@ -6,14 +6,17 @@
 #define UNTITLED_CELLS_H
 
 
-
-
 struct cell {
     int id;
     int active;
-   // int nb[];
-    struct cell *cells[]
+
+    struct cell *nb[];
 };
 
+
+void setNB(struct cell *c) {
+
+
+}
 
 #endif //UNTITLED_CELLS_H
