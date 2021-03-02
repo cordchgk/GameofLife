@@ -31,7 +31,7 @@ struct board initBoard(int dim) {
 
 
     struct cell cells[dim][dim];
-printf("Hello World");
+
 
     b.cells = (struct cell **) cells;
 
@@ -39,7 +39,7 @@ printf("Hello World");
 
     cells[0][0] = c;
     printf("%i\n", cells[0][0].active);
-    printf("Hello World");
+
 
     return b;
 
