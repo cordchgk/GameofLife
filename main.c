@@ -12,10 +12,6 @@ int main() {
     struct board board = initBoard(10);
 
 
-
-display(board);
-
-
     return 0;
 }
 

@@ -11,12 +11,12 @@
      int active;
 
 
- } cell_default = {3};
+ };
 
 
 struct cell initCell() {
     struct cell c;
-    c.active = 3;
+    c.active = 0;
 
     return c;
 
