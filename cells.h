@@ -16,7 +16,7 @@
 
 struct cell initCell() {
     struct cell c;
-    c.active = 0;
+    c.active = 3;
 
     return c;
 

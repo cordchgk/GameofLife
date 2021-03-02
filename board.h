@@ -36,9 +36,15 @@ struct board initBoard(int dim) {
 
     struct cell cells[dim][dim];
 
+    cells[0][0] = cell_default;
+
+
     b.cells = (struct cell **) cells;
 
-    printf("%i\n", &b.cells[4][4]);
+    struct cell c = initCell();
+
+    cells[0][0] = c;
+    printf("%i", cells[0][0].active);
 
 
     return b;
